@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+        <link rel="stylesheet" href="tictac.css">
+</head>
+<body>
+<div class="players">
+    <p>
+    <input type="text" id="p1-name" value="player one">
+            <select id="p1-bg" name="dropdown1">
+            <option value="#007bff">blue</option>
+            <option value=" #e83e8c">pink</option>
+            <option value="#28a745">green</option>
+            <option value=" #6f42c1">purple</option>
+            <option value="#007bff">light blue</option>
+            <option value=" #28a745">success</option>
+            </select>
+    </p>
+    <p>
+    <input type="text" id="p2-name" value="player two">
+                <select id="p2-bg" name="dropdown2">
+                <option value="#007bff">blue</option>
+                <option value=" #e83e8c">pink</option>
+                <option value="#28a745">green</option>
+                <option value=" #6f42c1">purple</option>
+                <option value="#007bff">light blue</option>
+                <option value=" #28a745">success</option>
+                </select>
+        </p>
+        <p>
+            <button id="start" class="start" onclick="start()">start game</button>
+        </p>
+    </div>
+    <div class="container" id="main">
+        
+        <span id="turn">play</span>
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+        <button class="play" onclick="replay()">play again</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="tictac.js"></script>
+</body>
+</html>
