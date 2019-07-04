@@ -99,6 +99,7 @@ function replay()
    if(cont.style.display == 'none')
    {
       cont.style.display ='block';
+   }
    else {
       cont.style.display= 'none';
    }
@@ -111,7 +112,7 @@ function replay()
       turn.style.fontSize = "20px";
    }
 }
-function start()
+function start_game()
 {
    var x = document.getElementById('main');
    x.style.display= 'block';
